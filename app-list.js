@@ -7,11 +7,11 @@ export const APP_LIST = {
     "snapchat": {pkgName: "com.snapchat.android", urlScheme: "snapchat", urlParams: "?u=foo"}, // fa
     "twitter": {pkgName: "com.twitter.android", urlScheme: "twitter", urlParams: "messages"}, // fa
     "youtube": {pkgName: "com.google.android.youtube", urlScheme: "youtube", urlParams: "watch?v=dQw4w9WgXcQ"}, // fa
-    "netflix": {pkgName: "com.netflix.mediaclient", urlScheme: "nflx", urlParams: ""}, 
+    "netflix": {pkgName: "com.netflix.mediaclient", urlScheme: "nflx", urlParams: ""},
     "instagram": {pkgName: "com.instagram.android", urlScheme: "instagram", urlParams: "app"}, // fa
-    "spotify": {pkgName: "com.spotify.mobile.android.ui", urlScheme: "spotify", urlParams: "http://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"}, // fa 
+    "spotify": {pkgName: "com.spotify.music", urlScheme: "spotify", urlParams: "http://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"}, // fa
     "slack": {pkgName: "com.Slack", urlScheme: "slack", urlParams: "open"}, // fa
-    //"hipchat": {pkgName: "com.hipchat", urlScheme: "hipchat", urlParams: "companyname/lobby"},
+    "hipchat": {pkgName: "com.hipchat", urlScheme: "hipchat", urlParams: "companyname/lobby"},
     "pinterest": {pkgName: "com.pinterest", urlScheme: "pinterest", urlParams: "pin/285063851385287883/"}, // fa
     "uber": {pkgName: "com.ubercab", urlScheme: "uber", urlParams: ""},
     "amazon": {pkgName: "com.amazon.mShop.android.shopping", urlScheme: "amazon", urlParams: "content/item?id=B007Q4OVHQ"}, // fa
@@ -23,9 +23,11 @@ export const APP_LIST = {
     "dropbox": {pkgName: "com.dropbox.android", urlScheme: "xxx", urlParams: ""}, // fa
     "google hangouts": {pkgName: "com.google.android.talk", urlScheme: "com.google.hangouts", urlParams: ""}, // fa: phone
     "evernote": {pkgName: "com.evernote", urlScheme: "evernote", urlParams: "root"},
-    // "threema": {pkgName: "ch.threema.app", urlScheme: "threema", urlParams: "add?id=ECHOECHO"}, // fa: lock
-    "vlc": {pkgName: "org.videolan.vlc", urlScheme: "vlc", urlParams: ""}, 
+    "threema": {pkgName: "ch.threema.app", urlScheme: "threema", urlParams: "add?id=ECHOECHO"}, // fa: lock
+    "vlc": {pkgName: "org.videolan.vlc", urlScheme: "vlc", urlParams: ""},
     "tumblr": {pkgName: "com.tumblr", urlScheme: "tumblr", urlParams: "x-callback-url/dashboard"}, // fa
     "flickr": {pkgName: "com.yahoo.mobile.client.android.flickr", urlScheme: "flickr", urlParams: ""}, // fa
-    "linkedin": {pkgName: "com.linkedin.android", urlScheme: "linkedin", urlParams: ""}
+    "linkedin": {pkgName: "com.linkedin.android", urlScheme: "linkedin", urlParams: ""},
+    "tinder": {pkgName: "com.tinder", urlScheme: "tinder", urlParams: ""},
+    "globoplay": {pkgName: "com.globo.globotv", urlScheme: "globotv", urlParams: ""}
 };
