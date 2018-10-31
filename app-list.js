@@ -29,5 +29,6 @@ export const APP_LIST = {
     "flickr": {pkgName: "com.yahoo.mobile.client.android.flickr", urlScheme: "flickr", urlParams: ""}, // fa
     "linkedin": {pkgName: "com.linkedin.android", urlScheme: "linkedin", urlParams: ""},
     "tinder": {pkgName: "com.tinder", urlScheme: "tinder", urlParams: ""},
-    "globoplay": {pkgName: "com.globo.globotv", urlScheme: "globotv", urlParams: ""}
+    "globoplay": {pkgName: "com.globo.globotv", urlScheme: "globotv", urlParams: ""},
+    "google": {pkgName: "com.google.android.googlequicksearchbox", urlScheme: "google", urlParams: ""}
 };
