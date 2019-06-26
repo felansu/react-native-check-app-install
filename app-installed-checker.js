@@ -1,12 +1,7 @@
 import { Linking, Platform } from 'react-native';
-import { APP_LIST } from './app-list';
 import CheckPackageInstallation from './android';
 
 class AppInstalledChecker {
-
-    static getAppList() {
-        return Object.keys(APP_LIST);
-    }
 
     static checkPackageName(packagename) {
         return new Promise((resolve, reject) => {
@@ -39,11 +34,11 @@ class AppInstalledChecker {
     }
 
     static isAppInstalledAndroid(key) {
-        return this.checkPackageName(APP_LIST[key] != null ? APP_LIST[key].pkgName : key);
+        return this.checkPackageName(key);
     }
 
     static isAppInstalledIOS(key) {
-        return this.checkURLScheme(APP_LIST[key].urlScheme, APP_LIST[key].urlParams);
+        return this.checkURLScheme(key);
     }
 }
 
